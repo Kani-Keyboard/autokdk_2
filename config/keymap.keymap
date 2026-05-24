@@ -1,0 +1,44 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        layer_0 {
+            bindings = <
+                &kp Q &kp W &kp E &kp R &kp T         &kp Y &kp U &kp I &kp O &kp P
+                &kp A &kp S &kp D &kp F &kp G &none &none &kp H &kp J &kp K &kp L &kp SEMI
+                &kp Z &kp X &kp C &kp V &kp B &none &none &kp N &kp M &kp COMMA &kp DOT &kp FSLH
+                                  &kp LCTRL &kp LALT &kp SPC &kp RSHFT &kp RGUI
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+                &none &none &none &none &none         &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
+                                  &none &none &none &none &none
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+                &none &none &none &none &none         &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
+                                  &none &none &none &none &none
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+                &none &none &none &none &none         &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
+                &none &none &none &none &none &none &none &none &none &none &none &none
+                                  &none &none &none &none &none
+            >;
+        };
+    };
+};
